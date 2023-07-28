@@ -6,3 +6,4 @@ If your system booted successfully, proceed with the next steps:
 3. Non-audio hardware:  
     3.1. Check if all devices work (touchscreen, touchpad, keyboard, keyboard backlight, etc...). Keep in mind that not all hardware will necessarily behave 1:1 compared to ChromeOS.  
     3.2. If some device doesnt work, check your kernel config for an option to enable it.  
+4. Keyboard layout. As of time of writing, [keyd](https://github.com/rvaiya/keyd) is an awesome choice to remap the keys, as not all actions translate 1:1 from ChromeOS into Linux.
