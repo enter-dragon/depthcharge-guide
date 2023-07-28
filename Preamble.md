@@ -6,4 +6,6 @@
 
 The issues tab may **ONLY** be used for improving the guide. If you need help with **following the guide**, try asking in the discord server.
 
-If you want to know more about the Eupnea Project, you can read more [here](insert_link_here)
+If you want to know more about the Eupnea Project, you can read more [here](insert_link_here)<br/><br/>
+
+<h3 align="right"><a href="prerequisites">CONTINUE TO PREREQUISITES</a></h3>
