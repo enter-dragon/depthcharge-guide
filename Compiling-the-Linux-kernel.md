@@ -24,4 +24,4 @@ Once you are done compiling the kernel, you will need to install it to the boot 
 2. Mount the second partition of the storage medium (if you havent already) and copy the kernel modules into /lib/modules (or /usr/lib/modules) on the second partition.
 3. Optional: Copy the headers to the appropriate location and create symbolic links for all the required paths.
 
-<h3 align="right"><a href="Preparing-the-chromebook">CONTINUE TO PREPARING THE CHROMEBOOK</a></h3>
+<h3 align="right"><a href="Preparing-the-chromebook|box">CONTINUE TO PREPARING THE CHROMEBOOK</a></h3>
