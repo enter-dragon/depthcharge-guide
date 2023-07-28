@@ -2,7 +2,7 @@ As mentioned in [prerequisites](prerequisites), you will need a boot medium.
 **EITHER** of the following will work:
 * An SD-card.
 * A USB-drive.
-* Any other kind of storage medium that your Chromebook is be able to read.
+* Any other kind of storage medium that your Chromebook/box is be able to read.
 
 <br></br>
 
