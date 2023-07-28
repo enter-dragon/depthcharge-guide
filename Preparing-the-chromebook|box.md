@@ -5,4 +5,4 @@
 5. Press <kbd>CTRL</kbd><kbd>U</kbd> or select boot from external on the developer screen.
 6. Wait for the system to boot. In case it doesnt see [troubleshooting](troubleshooting).
 
-<h3 align="right"><a href="Postinstall">CONTINUE TO POSTINSTALL</a></h3>
+<h3 align="right"><a href="Post‐install-setups">CONTINUE TO POST-INSTALL SETUPS</a></h3>
