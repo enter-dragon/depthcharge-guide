@@ -8,4 +8,4 @@
 2. An x86_64 Chromebook with developer mode enabled.
 3. A USB drive or SD-card.
 
-<h3 align="right"><a href="Compiling-the-Linux-kernel">CONTINUE TO COMPILING THE KERNEL</a></h3>
+<h3 align="right"><a href="Preparing the boot medium">CONTINUE TO PREPARING THE BOOT MEDIUM</a></h3>
