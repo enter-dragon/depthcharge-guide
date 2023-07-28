@@ -17,4 +17,5 @@ boot  etc  lib   mnt    proc  run   srv   tmp  var
     4.1. Create user: `useradd --create-home --shell /bin/bash insert_username` Replace insert_username with the username you want.  
     4.2. Set password: `passwd insert_username`  
     4.3. Add root permissions: `usermod -aG doas insert_username`. You might need to replace `sudo` with `wheel` or `doas`, depending on your distro.  
-5. 
+
+<h3 align="right"><a href="Compiling-the-Linux-kernel">CONTINUE TO COMPILING THE LINUX KERNEL</a></h3>
