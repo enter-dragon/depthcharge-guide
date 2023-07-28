@@ -7,12 +7,13 @@ There is no way to predict which kernel will be best for which device in the fut
 
 Follow these steps with the desired kernel:
 1. Download the kernel source code
-2. Generate the default config
-3. Edit the default config and enable any Chromebook/Google related options you find.
-4. Find out which soundcard your Chromebook uses and enable any options related to it.
-5. Compile the kernel. This step might take a **very** long time, especially on slower devices.
-6. Compile the kernel modules
-7. Optional: Compile the kernel headers
-8. Optional: Create an initramfs and compile it into the kernel. External initramfs' are not supported by depthcharge.
+2. Install all tools and dependencies needed to compile the kernel.
+3. Generate the default config with `make defconfig`
+4. Edit the default config with `make menuconfig` and enable any Chromebook/Google related options you find.
+5. Find out which soundcard your Chromebook uses and enable any options related to it.
+6. Compile the kernel with `make -j"$(nproc)"`. This step might take a **very** long time, especially on slower devices.
+7. Compile the kernel modules with `mkdir kernel-modules && make -j"$(nproc)" modules_install INSTALL_MOD_PATH=mod INSTALL_MOD_STRIP=1`
+8. Optional: Compile the kernel headers
+9. Optional: Create an initramfs and compile it into the kernel. External initramfs' are not supported by depthcharge.
 
 <h3 align="right"><a href="Preparing-the-distro">CONTINUE TO PREPARING THE DISTRO</a></h3>
