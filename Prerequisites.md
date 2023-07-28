@@ -1,5 +1,5 @@
 1. A device to run the script on. **EITHER** of the following:
-    * Chromebook/box with Crostini enabled (aka "Linux" in settings).
+    * Chromebook/box with Crostini enabled (aka "Linux" in settings). Read the [Crostini instructions](crostini-instructions) if you plan to use Crostini.
     * x86_64 Linux pc/laptop: (all distros supported).
     * Windows: Install Windows subsystem for Linux (WSL).
     * Apple devices: A virtual x86_64 machine might work.
