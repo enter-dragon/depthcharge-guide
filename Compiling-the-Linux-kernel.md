@@ -15,4 +15,4 @@ Follow these steps with the desired kernel:
 7. Optional: Compile the kernel headers
 8. Optional: Create an initramfs and compile it into the kernel. External initramfs' are not supported by depthcharge.
 
-<h3 align="right"><a href="preparing-the-distro">CONTINUE TO PREPARING THE DISTRO</a></h3>
+<h3 align="right"><a href="Preparing-the-distro">CONTINUE TO PREPARING THE DISTRO</a></h3>
