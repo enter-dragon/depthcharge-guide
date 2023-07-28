@@ -5,4 +5,5 @@
     3. [Preparing the distro](Preparing-the-distro)  
     4. [Compiling the Linux kernel](Compiling-the-Linux-kernel)  
     5. [Preparing the Chromebook/box](Preparing-the-chromebook|box)  
+    6. [Post-install](Post‐install)  
 * [Troubleshooting](troubleshooting)
