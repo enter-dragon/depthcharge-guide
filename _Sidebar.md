@@ -7,3 +7,4 @@
     5. [Preparing the Chromebook/box](Preparing-the-chromebook|box)  
     6. [Post-install setups](Post‐install-setups)  
 * [Troubleshooting](troubleshooting)
+* [Crostini-instructions](crostini-instructions)
