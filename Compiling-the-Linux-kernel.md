@@ -22,7 +22,7 @@ Follow these steps with the desired kernel:
     10.2. Create a new file called cmdline.txt  
     10.3. Paste the following into the file `loglevel=15 root=PARTUUID=insert_partuuid i915.modeset=1 rootwait rw`. Replace insert_partuuid with the output you got in step 10.1.  
     10.4. Optional: add `security=apparmor` or `security=selinux` at the end if your distro requires that. If you do not, your distro might not behave correctly. 
-10. Sign the kernel with: `futility vbutil_kernel --arch x86_64 --keyblock /usr/share/vboot/devkeys/kernel.keyblock --signprivate /usr/share/vboot/devkeys/kernel_data_key.vbprivk --bootloader cmdline.txt --config cmdline.txt --vmlinuz ./arch/x86/boot/bzImage --pack ./bzImage.signed`
+11. Sign the kernel with: `futility vbutil_kernel --arch x86_64 --keyblock /usr/share/vboot/devkeys/kernel.keyblock --signprivate /usr/share/vboot/devkeys/kernel_data_key.vbprivk --bootloader cmdline.txt --config cmdline.txt --vmlinuz ./arch/x86/boot/bzImage --pack ./bzImage.signed`
 
 Once you are done compiling the kernel, you will need to install it to the boot medium:
 1. You will need to determine the partition name to flash the kernel. It will be either `/dev/insert_devicep1` or `/dev/insert_device1` (notice the p missing in the second example). Once you have it, flash the kernel with: `dd if=/path-to-kernel-source-code/bzImage.signed of=/dev/insert_device1`. Replace `path-to-kernel-source-code` with the appropriate path or wherever you have stored the signed kernel image.
